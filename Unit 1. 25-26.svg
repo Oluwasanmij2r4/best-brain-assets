@@ -1,0 +1,37 @@
+<svg viewBox="0 0 380 300" xmlns="http://www.w3.org/2000/svg" style="background:#fcfdfd; border:1px solid #d1d5db; border-radius:8px; font-family:sans-serif;">
+  <!-- Animal Cell Boundary -->
+  <path d="M 60,150 C 50,70 100,40 180,40 C 260,40 300,80 300,160 C 300,240 250,270 175,270 C 95,270 70,230 60,150 Z" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+
+  <!-- Nucleus -->
+  <circle cx="165" cy="150" r="30" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <circle cx="165" cy="150" r="10" fill="#15803d"/>
+
+  <!-- Structure I: Vacuole / Pinocytic vesicle -->
+  <circle cx="180" cy="75" r="9" fill="#ffffff" stroke="#047857" stroke-width="1.5"/>
+
+  <!-- Structure II: Mitochondria -->
+  <ellipse cx="105" cy="140" rx="14" ry="8" transform="rotate(-30 105 140)" fill="#fed7aa" stroke="#c2410c" stroke-width="1.5"/>
+
+  <!-- Structure III: Endoplasmic Reticulum -->
+  <path d="M 130,200 Q 155,190 180,200 T 210,200" fill="none" stroke="#334155" stroke-width="2.2"/>
+  <path d="M 135,212 Q 160,202 185,212 T 215,212" fill="none" stroke="#334155" stroke-width="2.2"/>
+
+  <!-- Structure IV: Plasma membrane -->
+
+  <!-- Label Lines & Identifiers -->
+  <!-- I -->
+  <line x1="190" y1="75" x2="285" y2="70" stroke="#111" stroke-width="1.2"/>
+  <text x="292" y="74" font-size="14" font-weight="bold">I</text>
+
+  <!-- II -->
+  <line x1="120" y1="140" x2="285" y2="110" stroke="#111" stroke-width="1.2"/>
+  <text x="292" y="114" font-size="14" font-weight="bold">II</text>
+
+  <!-- III -->
+  <line x1="212" y1="200" x2="285" y2="150" stroke="#111" stroke-width="1.2"/>
+  <text x="292" y="154" font-size="14" font-weight="bold">III</text>
+
+  <!-- IV -->
+  <line x1="240" y1="245" x2="285" y2="190" stroke="#111" stroke-width="1.2"/>
+  <text x="292" y="194" font-size="14" font-weight="bold">IV</text>
+</svg>

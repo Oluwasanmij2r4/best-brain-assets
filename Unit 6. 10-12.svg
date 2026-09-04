@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 480" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Dot Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Section Caption -->
+  <text x="50" y="40" font-size="14" font-weight="bold" fill="#333">Fig 1: Cross-section of a Dicot Root</text>
+
+  <!-- Outer Boundary: Epiblema / Piliferous layer / Epidermis (1) -->
+  <ellipse cx="210" cy="240" rx="145" ry="145" fill="#fafafa" stroke="#222" stroke-width="2.5" />
+
+  <!-- Cortex Region (2) -->
+  <ellipse cx="210" cy="240" rx="138" ry="138" fill="#fdfbf7" stroke="#666" stroke-width="1.2" stroke-dasharray="3,3" />
+
+  <!-- Endodermis (3) - Outer ring of the stele -->
+  <ellipse cx="210" cy="240" rx="80" ry="80" fill="#f2ede4" stroke="#222" stroke-width="2.5" />
+
+  <!-- Pericycle (4) - Layer directly beneath endodermis -->
+  <ellipse cx="210" cy="240" rx="72" ry="72" fill="#faf7f0" stroke="#444" stroke-width="1.8" />
+
+  <!-- Vascular Cambium ring (6) between xylem and phloem -->
+  <ellipse cx="210" cy="240" rx="60" ry="60" fill="none" stroke="#2b5c2b" stroke-width="1.8" stroke-dasharray="4,2" />
+
+  <!-- Central Star-shaped Primary Xylem (7) with 4-5 radiating arms -->
+  <path d="M 210 178 
+           C 213 205, 222 215, 245 210 
+           C 265 205, 275 220, 268 238 
+           C 248 240, 240 250, 245 268 
+           C 250 285, 235 295, 220 285 
+           C 212 268, 202 268, 195 285 
+           C 180 295, 168 285, 172 268 
+           C 178 250, 168 240, 148 238 
+           C 142 220, 150 205, 172 210 
+           C 195 215, 205 205, 210 178 Z" 
+        fill="#e5edf5" stroke="#1d4e89" stroke-width="2.5" />
+
+  <!-- Phloem Patches (5) situated between the arms of the star-shaped xylem -->
+  <!-- Top-Right Phloem Bundle -->
+  <ellipse cx="242" cy="198" rx="12" ry="9" fill="#1b2a4a" stroke="#111" stroke-width="1.5" />
+  <!-- Bottom-Right Phloem Bundle -->
+  <ellipse cx="254" cy="256" rx="12" ry="10" fill="#1b2a4a" stroke="#111" stroke-width="1.5" />
+  <!-- Bottom-Left Phloem Bundle -->
+  <ellipse cx="180" cy="265" rx="12" ry="9" fill="#1b2a4a" stroke="#111" stroke-width="1.5" />
+  <!-- Top-Left Phloem Bundle -->
+  <ellipse cx="168" cy="198" rx="12" ry="9" fill="#1b2a4a" stroke="#111" stroke-width="1.5" />
+
+  <!-- Center Metaxylem vessels -->
+  <circle cx="210" cy="240" r="10" fill="#ffffff" stroke="#1d4e89" stroke-width="2" />
+  <circle cx="210" cy="216" r="6.5" fill="#ffffff" stroke="#1d4e89" stroke-width="1.5" />
+  <circle cx="210" cy="262" r="6.5" fill="#ffffff" stroke="#1d4e89" stroke-width="1.5" />
+  <circle cx="188" cy="238" r="6.5" fill="#ffffff" stroke="#1d4e89" stroke-width="1.5" />
+  <circle cx="232" cy="238" r="6.5" fill="#ffffff" stroke="#1d4e89" stroke-width="1.5" />
+
+  <!-- ================= LABELS & POINTERS ================= -->
+  <!-- 1: Piliferous layer / Epiblema / Epidermis -->
+  <line x1="420" y1="95" x2="310" y2="135" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="430" y="100" font-size="16" font-weight="bold" fill="#111">1</text>
+
+  <!-- 2: Cortex -->
+  <line x1="420" y1="130" x2="315" y2="175" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="430" y="135" font-size="16" font-weight="bold" fill="#111">2</text>
+
+  <!-- 3: Endodermis -->
+  <line x1="420" y1="165" x2="288" y2="210" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="430" y="170" font-size="16" font-weight="bold" fill="#111">3</text>
+
+  <!-- 4: Pericycle -->
+  <line x1="420" y1="200" x2="278" y2="225" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="430" y="205" font-size="16" font-weight="bold" fill="#111">4</text>
+
+  <!-- 5: Phloem -->
+  <line x1="420" y1="235" x2="260" y2="252" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="430" y="240" font-size="16" font-weight="bold" fill="#111">5</text>
+
+  <!-- 6: Cambium -->
+  <line x1="420" y1="270" x2="250" y2="270" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="430" y="275" font-size="16" font-weight="bold" fill="#111">6</text>
+
+  <!-- 7: Primary Xylem -->
+  <line x1="420" y1="305" x2="235" y2="282" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="430" y="310" font-size="16" font-weight="bold" fill="#111">7</text>
+</svg>

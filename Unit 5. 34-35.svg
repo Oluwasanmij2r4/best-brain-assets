@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 440" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Dot Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Prothallus Body (Heart-shaped fern gametophyte) -->
+  <!-- Outer margin -->
+  <path d="M 180 90 
+           C 140 40, 70 70, 75 140 
+           C 80 190, 130 250, 180 300 
+           C 230 250, 280 190, 285 140 
+           C 290 70, 220 40, 180 90 Z" 
+        fill="#eef7ee" stroke="#222" stroke-width="2.5" stroke-linejoin="round" />
+
+  <!-- Apical Notch Depression -->
+  <path d="M 155 78 C 170 105, 190 105, 205 78" fill="none" stroke="#222" stroke-width="2" />
+
+  <!-- Cellular network texture / Wings (thin marginal cells) -->
+  <g fill="none" stroke="#5a8a5a" stroke-width="1.2">
+    <!-- Left lobe cells -->
+    <path d="M 85 110 C 95 90, 125 75, 150 82" />
+    <path d="M 80 140 C 95 125, 125 115, 150 120" />
+    <path d="M 90 170 C 110 155, 135 150, 155 160" />
+    <path d="M 110 205 C 130 195, 145 195, 160 210" />
+    <path d="M 135 245 C 150 235, 160 240, 170 255" />
+    
+    <!-- Right lobe cells -->
+    <path d="M 275 110 C 265 90, 235 75, 210 82" />
+    <path d="M 280 140 C 265 125, 235 115, 210 120" />
+    <path d="M 270 170 C 250 155, 225 150, 205 160" />
+    <path d="M 250 205 C 230 195, 215 195, 200 210" />
+    <path d="M 225 245 C 210 235, 200 240, 190 255" />
+  </g>
+
+  <!-- Central Cushion (Thickened Region) -->
+  <ellipse cx="180" cy="180" rx="35" ry="55" fill="#d9ebd9" stroke="#3b6e3b" stroke-width="1.5" stroke-dasharray="3,2" />
+
+  <!-- Structure I: Archegonia (Flask-shaped female organs near the apical notch) -->
+  <g fill="#8b3a3a" stroke="#222" stroke-width="1.2">
+    <circle cx="170" cy="115" r="3.5" />
+    <circle cx="185" cy="118" r="3.5" />
+    <circle cx="178" cy="128" r="3.5" />
+    <circle cx="168" cy="138" r="3.5" />
+    <circle cx="188" cy="136" r="3.5" />
+    <circle cx="176" cy="148" r="3.5" />
+  </g>
+
+  <!-- Structure II: Antheridia (Spherical male organs scattered towards the posterior/rhizoid region) -->
+  <g fill="#2b547e" stroke="#222" stroke-width="1.2">
+    <circle cx="165" cy="185" r="3.2" />
+    <circle cx="192" cy="188" r="3.2" />
+    <circle cx="175" cy="205" r="3.2" />
+    <circle cx="188" cy="215" r="3.2" />
+    <circle cx="168" cy="228" r="3.2" />
+    <circle cx="182" cy="235" r="3.2" />
+    <circle cx="174" cy="250" r="3.2" />
+  </g>
+
+  <!-- Structure III: Rhizoids (Filamentous root-like absorbing hairs at the base) -->
+  <g fill="none" stroke="#7a5229" stroke-width="1.8" stroke-linecap="round">
+    <path d="M 165 285 C 160 310, 155 330, 150 350" />
+    <path d="M 172 295 C 170 320, 168 345, 165 375" />
+    <path d="M 180 300 C 182 325, 178 355, 182 385" />
+    <path d="M 188 295 C 195 320, 192 345, 198 370" />
+    <path d="M 195 285 C 205 310, 212 330, 218 355" />
+  </g>
+
+  <!-- Pointer and Label I (Archegonia / Female sex organs) -->
+  <line x1="330" y1="120" x2="192" y2="120" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="340" y="126" font-size="20" font-weight="bold" fill="#111">I</text>
+
+  <!-- Pointer and Label II (Antheridia / Male sex organs) -->
+  <line x1="330" y1="175" x2="198" y2="190" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <line x1="330" y1="175" x2="192" y2="235" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="340" y="181" font-size="20" font-weight="bold" fill="#111">II</text>
+
+  <!-- Pointer and Label III (Rhizoids) -->
+  <line x1="330" y1="365" x2="195" y2="365" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="340" y="371" font-size="20" font-weight="bold" fill="#111">III</text>
+</svg>

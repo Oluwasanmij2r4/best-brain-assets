@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Earthworm Body -->
+  <!-- Posterior tapering region towards tail (I) -->
+  <path d="M 68 178 
+           C 66 160, 95 130, 140 120 
+           C 185 110, 220 145, 275 105 
+           C 310 80, 365 110, 385 118 
+           L 385 142 
+           C 365 148, 335 152, 290 125 
+           C 240 95, 200 135, 145 138 
+           C 100 140, 75 170, 68 178 Z" 
+        fill="#e8d5c4" stroke="#222" stroke-width="2" />
+
+  <!-- Metameric segmentation rings on posterior / middle body -->
+  <g stroke="#333" stroke-width="1.2" fill="none">
+    <path d="M 72 172 Q 74 175 75 177" />
+    <path d="M 78 165 Q 81 168 83 171" />
+    <path d="M 86 156 Q 90 160 93 163" />
+    <path d="M 96 148 Q 101 152 105 155" />
+    <path d="M 110 139 Q 115 144 119 147" />
+    <path d="M 125 132 Q 130 138 135 141" />
+    <path d="M 142 126 Q 147 133 151 137" />
+    <path d="M 160 121 Q 164 128 168 133" />
+    <path d="M 178 118 Q 182 126 185 130" />
+    <path d="M 198 116 Q 202 124 205 129" />
+    <path d="M 218 114 Q 223 121 226 127" />
+    <path d="M 238 111 Q 244 117 248 123" />
+    <path d="M 258 107 Q 264 112 268 117" />
+    <path d="M 278 102 Q 284 106 288 111" />
+    <path d="M 302 96 Q 306 103 310 110" />
+    <path d="M 324 96 Q 327 106 330 116" />
+    <path d="M 346 101 Q 348 112 350 123" />
+    <path d="M 368 109 Q 369 120 370 131" />
+  </g>
+
+  <!-- Clitellum (Swollen saddle-like band) - Label II -->
+  <path d="M 385 118 
+           C 390 114, 405 112, 425 120 
+           L 423 148 
+           C 405 152, 390 148, 385 142 Z" 
+        fill="#cfa888" stroke="#222" stroke-width="2.2" />
+  <!-- Faint grooving on clitellum -->
+  <line x1="398" y1="116" x2="397" y2="149" stroke="#8c6545" stroke-width="1.2" stroke-dasharray="2,2" />
+  <line x1="412" y1="117" x2="410" y2="149" stroke="#8c6545" stroke-width="1.2" stroke-dasharray="2,2" />
+
+  <!-- Anterior Body & Prostomium/Mouth (Label III region) -->
+  <path d="M 425 120 
+           C 460 125, 510 112, 545 106 
+           C 552 105, 558 112, 555 118 
+           C 545 128, 480 148, 423 148 Z" 
+        fill="#e8d5c4" stroke="#222" stroke-width="2" />
+
+  <!-- Anterior Metameres / Segments -->
+  <g stroke="#333" stroke-width="1.5" fill="none">
+    <line x1="440" y1="122" x2="437" y2="147" />
+    <line x1="455" y1="123" x2="451" y2="145" />
+    <line x1="470" y1="122" x2="466" y2="142" />
+    <line x1="485" y1="120" x2="482" y2="138" />
+    <line x1="500" y1="117" x2="497" y2="133" />
+    <line x1="514" y1="114" x2="512" y2="128" />
+    <line x1="528" y1="111" x2="526" y2="123" />
+    <line x1="540" y1="108" x2="538" y2="118" />
+  </g>
+
+  <!-- Setae / Chaetae (Small bristles along ventral side) -->
+  <g stroke="#555" stroke-width="1">
+    <line x1="100" y1="157" x2="98" y2="162" />
+    <line x1="130" y1="143" x2="129" y2="148" />
+    <line x1="165" y1="135" x2="164" y2="140" />
+    <line x1="200" y1="130" x2="200" y2="135" />
+    <line x1="240" y1="124" x2="240" y2="129" />
+    <line x1="280" y1="115" x2="281" y2="120" />
+    <line x1="320" y1="115" x2="321" y2="120" />
+    <line x1="360" y1="126" x2="361" y2="131" />
+    <line x1="445" y1="147" x2="445" y2="152" />
+    <line x1="475" y1="143" x2="475" y2="148" />
+  </g>
+
+  <!-- ================= LABELS & POINTERS ================= -->
+  <!-- I: Tail / Posterior end / Anus -->
+  <path d="M 45 178 L 60 178 L 68 178" fill="none" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="35" y="184" font-size="20" font-weight="bold" fill="#111" text-anchor="end">I</text>
+
+  <!-- II: Clitellum -->
+  <line x1="405" y1="58" x2="405" y2="114" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="405" y="48" font-size="20" font-weight="bold" fill="#111" text-anchor="middle">II</text>
+
+  <!-- III: Anterior segment / Chaetae region -->
+  <line x1="480" y1="58" x2="480" y2="120" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="480" y="48" font-size="20" font-weight="bold" fill="#111" text-anchor="middle">III</text>
+</svg>

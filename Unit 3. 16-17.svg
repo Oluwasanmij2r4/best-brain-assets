@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Arrow marker for pointer lines -->
+    <marker id="pointer" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#222" />
+    </marker>
+  </defs>
+
+  <!-- Ground / Table surface -->
+  <line x1="60" y1="420" x2="330" y2="420" stroke="#333" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="80" y1="427" x2="310" y2="427" stroke="#666" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Beaker: Liquid inside (Salt solution) -->
+  <path d="M 85 275 L 85 390 A 25 25 0 0 0 110 415 L 250 415 A 25 25 0 0 0 275 390 L 275 275 Z" 
+        fill="#e1ecf7" />
+  <!-- Liquid level line in beaker -->
+  <line x1="85" y1="275" x2="120" y2="275" stroke="#4682b4" stroke-width="2" />
+  <line x1="238" y1="275" x2="275" y2="275" stroke="#4682b4" stroke-width="2" />
+  <!-- Dash pattern representing salt solution -->
+  <g stroke="#6b9ac4" stroke-width="1.5" stroke-linecap="round">
+    <line x1="95" y1="300" x2="110" y2="300" />
+    <line x1="90" y1="330" x2="115" y2="330" />
+    <line x1="100" y1="365" x2="125" y2="365" />
+    <line x1="245" y1="300" x2="265" y2="300" />
+    <line x1="240" y1="335" x2="260" y2="335" />
+    <line x1="235" y1="370" x2="255" y2="370" />
+  </g>
+
+  <!-- Beaker Outline -->
+  <path d="M 75 80 
+           C 78 80, 85 85, 85 95 
+           L 85 390 
+           A 25 25 0 0 0 110 415 
+           L 250 415 
+           A 25 25 0 0 0 275 390 
+           L 275 95 
+           C 275 85, 282 80, 285 80" 
+        fill="none" stroke="#222" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Hollowed Yam Tuber (Fleshy wall) -->
+  <path d="M 100 155 
+           L 125 155 
+           L 155 375 
+           L 205 375 
+           L 235 150 
+           L 255 145 
+           L 225 400 
+           L 135 400 Z" 
+        fill="#f5ebd7" stroke="#222" stroke-width="2.5" stroke-linejoin="round" />
+
+  <!-- Water inside the Yam cavity -->
+  <path d="M 130 190 L 153 365 L 207 365 L 230 190 Z" fill="#bfe3ff" />
+  <line x1="130" y1="190" x2="230" y2="190" stroke="#1d6fa5" stroke-width="2" />
+  
+  <!-- Dashed lines representing pure water inside yam -->
+  <g stroke="#3a8fd4" stroke-width="1.5" stroke-dasharray="8,8">
+    <line x1="140" y1="215" x2="220" y2="215" />
+    <line x1="145" y1="245" x2="215" y2="245" />
+    <line x1="150" y1="275" x2="210" y2="275" />
+    <line x1="155" y1="305" x2="205" y2="305" />
+    <line x1="160" y1="335" x2="200" y2="335" />
+  </g>
+
+  <!-- Labels and Leader Lines -->
+  <!-- Hollowed yam tuber -->
+  <line x1="390" y1="155" x2="245" y2="155" stroke="#222" stroke-width="1.5" marker-end="url(#pointer)" />
+  <text x="395" y="160" font-size="16" font-weight="bold" fill="#111">Hollowed yam tuber</text>
+
+  <!-- Water -->
+  <line x1="390" y1="230" x2="210" y2="230" stroke="#222" stroke-width="1.5" marker-end="url(#pointer)" />
+  <text x="395" y="235" font-size="16" font-weight="bold" fill="#111">Water</text>
+
+  <!-- Beaker -->
+  <line x1="390" y1="300" x2="276" y2="300" stroke="#222" stroke-width="1.5" marker-end="url(#pointer)" />
+  <text x="395" y="305" font-size="16" font-weight="bold" fill="#111">Beaker</text>
+
+  <!-- Salt solution -->
+  <line x1="390" y1="370" x2="265" y2="370" stroke="#222" stroke-width="1.5" marker-end="url(#pointer)" />
+  <text x="395" y="375" font-size="16" font-weight="bold" fill="#111">Salt solution</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Dot Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Title / Question Index in corner -->
+  <text x="470" y="55" font-size="20" font-weight="bold" fill="#111">36</text>
+
+  <!-- Spirogyra Cell Structure -->
+  <g id="spirogyra-cell">
+    <!-- Outermost Mucilage Sheath (Layer 1) -->
+    <path d="M 40 75 Q 240 68 440 75" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" />
+    <path d="M 40 225 Q 240 232 440 225" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Cell Wall: Flared ends at cross-walls -->
+    <path d="M 40 65 C 65 72, 75 88, 75 110 L 75 190 C 75 212, 65 228, 40 235" 
+          fill="none" stroke="#222" stroke-width="2.5" />
+    <path d="M 440 65 C 415 72, 405 88, 405 110 L 405 190 C 405 212, 415 228, 440 235" 
+          fill="none" stroke="#222" stroke-width="2.5" />
+
+    <!-- Rigid Cellulose Cell Wall (Layer 2) -->
+    <rect x="75" y="80" width="330" height="140" rx="14" fill="#f5faf2" stroke="#222" stroke-width="3" />
+
+    <!-- Plasma Membrane (Layer 3 - Innermost lining) -->
+    <rect x="85" y="90" width="310" height="120" rx="8" fill="#eef7ec" stroke="#444" stroke-width="1.8" />
+
+    <!-- Transverse Septa / Cross-walls between adjacent filament cells -->
+    <line x1="75" y1="80" x2="75" y2="220" stroke="#222" stroke-width="3" />
+    <line x1="405" y1="80" x2="405" y2="220" stroke="#222" stroke-width="3" />
+
+    <!-- Spiral / Ribbon-like Chloroplast with serrated edges -->
+    <g fill="#438f38" stroke="#1b5314" stroke-width="1.5">
+      <!-- Spiral Ribbon Turn 1 -->
+      <path d="M 90 200 C 105 195, 120 150, 135 100 C 145 100, 150 110, 140 135 C 128 165, 110 200, 90 200 Z" />
+      <!-- Spiral Ribbon Turn 2 -->
+      <path d="M 145 200 C 165 195, 185 145, 210 98 C 222 98, 225 108, 212 138 C 195 172, 175 202, 145 200 Z" />
+      <!-- Spiral Ribbon Turn 3 -->
+      <path d="M 220 200 C 242 195, 265 145, 290 98 C 302 98, 305 108, 292 138 C 275 172, 252 202, 220 200 Z" />
+      <!-- Spiral Ribbon Turn 4 -->
+      <path d="M 300 200 C 322 195, 345 145, 370 98 C 382 98, 385 108, 372 138 C 355 172, 332 202, 300 200 Z" />
+    </g>
+
+    <!-- Pyrenoids embedded along the chloroplast ribbon -->
+    <g fill="#ffffff" stroke="#1b5314" stroke-width="1.8">
+      <circle cx="118" cy="165" r="4.5" />
+      <circle cx="132" cy="115" r="4.5" />
+      <circle cx="175" cy="168" r="4.5" />
+      <circle cx="202" cy="118" r="4.5" />
+      <circle cx="250" cy="170" r="4.5" />
+      <circle cx="282" cy="120" r="4.5" />
+      <circle cx="330" cy="170" r="4.5" />
+      <circle cx="362" cy="120" r="4.5" />
+    </g>
+
+    <!-- Cytoplasmic Strands suspending the central nucleus -->
+    <g stroke="#6ca362" stroke-width="1.5">
+      <line x1="240" y1="150" x2="205" y2="105" />
+      <line x1="240" y1="150" x2="280" y2="105" />
+      <line x1="240" y1="150" x2="200" y2="195" />
+      <line x1="240" y1="150" x2="285" y2="195" />
+    </g>
+
+    <!-- Centrally suspended Nucleus -->
+    <ellipse cx="240" cy="150" rx="12" ry="9" fill="#ffffff" stroke="#222" stroke-width="2" />
+    <circle cx="240" cy="150" r="3.5" fill="#222" />
+  </g>
+
+  <!-- Pointer and Label I: Cell wall -->
+  <line x1="125" y1="42" x2="125" y2="82" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="125" y="32" font-size="20" font-weight="bold" fill="#111" text-anchor="middle">I</text>
+
+  <!-- Pointer and Label II: Cytoplasm / Cytoplasmic Strand -->
+  <line x1="265" y1="42" x2="265" y2="122" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="265" y="32" font-size="20" font-weight="bold" fill="#111" text-anchor="middle">II</text>
+
+  <!-- Pointer and Label III: Nucleus (transverse horizontal pointer) -->
+  <line x1="455" y1="150" x2="252" y2="150" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="465" y="157" font-size="20" font-weight="bold" fill="#111">III</text>
+
+  <!-- Pointer and Label IV: Chloroplast / Pyrenoid -->
+  <line x1="455" y1="190" x2="375" y2="190" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="465" y="197" font-size="20" font-weight="bold" fill="#111">IV</text>
+</svg>

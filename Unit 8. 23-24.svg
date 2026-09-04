@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 500" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Dot Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Title / Diagram Caption -->
+  <text x="50" y="35" font-size="16" font-weight="bold" fill="#222">Head of a cockroach</text>
+
+  <!-- Cockroach Head (Anterior View) -->
+  <g id="cockroach-head" stroke="#222" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Antennae (Label I target) -->
+    <!-- Left antenna extending upward and outward -->
+    <path d="M 160 105 C 145 75, 125 55, 105 45" fill="none" stroke-width="2.5" />
+    <!-- Right antenna extending upward and outward -->
+    <path d="M 270 105 C 285 75, 305 55, 325 45" fill="none" stroke-width="2.5" />
+
+    <!-- Epicranial plates / Vertex & Frons sutures -->
+    <path d="M 160 85 C 190 70, 240 70, 270 85" fill="none" stroke-width="2" />
+    <path d="M 215 75 L 215 110" fill="none" stroke-width="2" />
+    <path d="M 215 110 L 180 135" fill="none" stroke-width="2" />
+    <path d="M 215 110 L 250 135" fill="none" stroke-width="2" />
+
+    <!-- Compound Eyes (Kidney / Reniform shaped) -->
+    <!-- Left Compound Eye -->
+    <path d="M 155 75 C 130 80, 95 110, 92 145 C 90 170, 115 170, 125 155 C 135 140, 148 115, 155 75 Z" 
+          fill="#5a4d41" stroke-width="2" />
+    <!-- Right Compound Eye (Label J target) -->
+    <path d="M 275 75 C 300 80, 335 110, 338 145 C 340 170, 315 170, 305 155 C 295 140, 282 115, 275 75 Z" 
+          fill="#5a4d41" stroke-width="2" />
+
+    <!-- Antennal Sockets / Fenestrae (Ocellar spots) -->
+    <circle cx="160" cy="115" r="9" fill="#fdfbf7" stroke-width="2" />
+    <circle cx="270" cy="115" r="9" fill="#fdfbf7" stroke-width="2" />
+    <circle cx="150" cy="98" r="4.5" fill="#eae3d2" stroke-width="1.5" />
+    <circle cx="280" cy="98" r="4.5" fill="#eae3d2" stroke-width="1.5" />
+
+    <!-- Cranium / Frons & Clypeus (Central face of head) -->
+    <path d="M 125 155 
+             C 135 190, 140 230, 142 270 
+             L 155 285 
+             L 165 310 
+             C 185 315, 245 315, 265 310 
+             L 275 285 
+             L 288 270 
+             C 290 230, 295 190, 305 155" 
+          fill="#eddcc9" stroke-width="2.5" />
+
+    <!-- Genae (Cheeks) side borders -->
+    <path d="M 105 170 C 110 205, 120 235, 125 260" fill="none" stroke-width="2" />
+    <path d="M 325 170 C 320 205, 310 235, 305 260" fill="none" stroke-width="2" />
+
+    <!-- Mandibles (Heavy toothed biting jaws) -->
+    <path d="M 130 265 C 135 290, 148 315, 160 325 L 175 315 C 160 295, 150 275, 145 265 Z" 
+          fill="#b89370" stroke-width="2" />
+    <path d="M 300 265 C 295 290, 282 315, 270 325 L 255 315 C 270 295, 280 275, 285 265 Z" 
+          fill="#b89370" stroke-width="2" />
+
+    <!-- Labrum (Upper lip) -->
+    <path d="M 175 310 C 175 330, 190 338, 215 338 C 240 338, 255 330, 255 310 Z" 
+          fill="#e2cdb4" stroke-width="2" />
+
+    <!-- Maxillary Palps (5-segmented sensory feelers) -->
+    <!-- Left Maxillary Palp -->
+    <path d="M 125 295 
+             C 105 305, 88 320, 80 345 
+             C 75 365, 85 385, 102 390 
+             C 108 375, 98 355, 108 340 
+             C 118 325, 130 315, 140 310 Z" 
+          fill="#eedfcb" stroke-width="2" />
+    <!-- Right Maxillary Palp (Label L target) -->
+    <path d="M 305 295 
+             C 325 305, 342 320, 350 345 
+             C 355 365, 345 385, 328 390 
+             C 322 375, 332 355, 322 340 
+             C 312 325, 300 315, 290 310 Z" 
+          fill="#eedfcb" stroke-width="2" />
+    <!-- Segment joints on right maxillary palp -->
+    <line x1="315" y1="318" x2="328" y2="310" stroke-width="1.8" />
+    <line x1="332" y1="335" x2="345" y2="330" stroke-width="1.8" />
+    <line x1="338" y1="365" x2="350" y2="362" stroke-width="1.8" />
+
+    <!-- Labial Palps (3-segmented - Label K target) -->
+    <!-- Left Labial Palp -->
+    <path d="M 180 335 C 170 355, 160 375, 172 392 C 178 390, 185 375, 192 355 C 196 345, 194 338, 188 335 Z" 
+          fill="#d8c2a7" stroke-width="1.8" />
+    <!-- Right Labial Palp -->
+    <path d="M 250 335 C 260 355, 270 375, 258 392 C 252 390, 245 375, 238 355 C 234 345, 236 338, 242 335 Z" 
+          fill="#d8c2a7" stroke-width="1.8" />
+    <line x1="246" y1="358" x2="256" y2="362" stroke-width="1.5" />
+    <line x1="250" y1="375" x2="260" y2="378" stroke-width="1.5" />
+  </g>
+
+  <!-- ================= LABELS & POINTERS ================= -->
+  <!-- I: Antenna -->
+  <line x1="410" y1="75" x2="295" y2="75" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="425" y="82" font-size="22" font-weight="bold" fill="#111">I</text>
+
+  <!-- J: Compound Eye -->
+  <line x1="410" y1="140" x2="332" y2="140" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="425" y="147" font-size="22" font-weight="bold" fill="#111">J</text>
+
+  <!-- K: Labial Palp (Inner feeler) -->
+  <line x1="410" y1="345" x2="258" y2="350" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="425" y="352" font-size="22" font-weight="bold" fill="#111">K</text>
+
+  <!-- L: Maxillary Palp (Outer feeler) -->
+  <line x1="410" y1="385" x2="335" y2="370" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="425" y="392" font-size="22" font-weight="bold" fill="#111">L</text>
+</svg>

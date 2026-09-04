@@ -1,0 +1,39 @@
+<svg viewBox="0 0 380 280" xmlns="http://www.w3.org/2000/svg" style="background:#fcfdfd; border:1px solid #d1d5db; border-radius:8px; font-family:sans-serif;">
+  <!-- Animal Cell Boundary -->
+  <path d="M 60,135 C 55,60 110,40 180,40 C 260,40 310,75 305,150 C 300,215 250,240 180,240 C 100,240 65,200 60,135 Z" fill="#fefce8" stroke="#ca8a04" stroke-width="2.5"/>
+
+  <!-- Nucleus (Label 3/4 area) -->
+  <circle cx="180" cy="130" r="32" fill="#fef08a" stroke="#854d0e" stroke-width="1.5"/>
+  <circle cx="180" cy="130" r="11" fill="#854d0e"/>
+
+  <!-- Mitochondria (Label 2) -->
+  <ellipse cx="110" cy="100" rx="14" ry="8" transform="rotate(-25 110 100)" fill="#fca5a5" stroke="#b91c1c" stroke-width="1.2"/>
+  <ellipse cx="120" cy="180" rx="15" ry="9" transform="rotate(35 120 180)" fill="#fca5a5" stroke="#b91c1c" stroke-width="1.2"/>
+
+  <!-- Ribosomes / Endoplasmic Reticulum (Label 5) -->
+  <path d="M 225,120 Q 245,135 225,150" fill="none" stroke="#713f12" stroke-width="1.5"/>
+  <circle cx="233" cy="130" r="1.5" fill="#000"/><circle cx="236" cy="140" r="1.5" fill="#000"/>
+
+  <!-- Labels & Lines -->
+  <!-- 1 -> Cell membrane -->
+  <line x1="205" y1="43" x2="270" y2="25" stroke="#111" stroke-width="1.2"/>
+  <text x="275" y="28" font-size="13" font-weight="bold">1</text>
+
+  <!-- 2 -> Mitochondrion -->
+  <line x1="120" y1="95" x2="270" y2="70" stroke="#111" stroke-width="1.2"/>
+  <text x="275" y="73" font-size="13" font-weight="bold">2</text>
+
+  <!-- 3 -> Nucleus -->
+  <line x1="195" y1="115" x2="270" y2="95" stroke="#111" stroke-width="1.2"/>
+  <text x="275" y="98" font-size="13" font-weight="bold">3</text>
+
+  <!-- 4 -> Cytoplasm / Nuclear membrane -->
+  <line x1="175" y1="162" x2="270" y2="120" stroke="#111" stroke-width="1.2"/>
+  <text x="275" y="123" font-size="13" font-weight="bold">4</text>
+
+  <!-- 5 -> Endoplasmic reticulum / Ribosome -->
+  <line x1="230" y1="150" x2="270" y2="150" stroke="#111" stroke-width="1.2"/>
+  <text x="275" y="154" font-size="13" font-weight="bold">5</text>
+
+  <text x="140" y="260" font-size="12" fill="#555" font-style="italic">Animal Cell</text>
+</svg>

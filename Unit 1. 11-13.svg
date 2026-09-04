@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" style="background:#fcfdfd; border:1px solid #d1d5db; border-radius:8px; font-family:sans-serif;">
+  <!-- Plasma membrane -->
+  <path d="M 60,160 C 60,70 120,40 200,40 C 290,40 340,80 340,160 C 340,240 280,280 200,280 C 110,280 60,240 60,160 Z" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+  
+  <!-- Nucleus & Nucleolus (1: Nucleolus, 2: Chromatin/Nucleus) -->
+  <circle cx="190" cy="110" r="42" fill="#bae6fd" stroke="#0369a1" stroke-width="2"/>
+  <circle cx="195" cy="105" r="16" fill="#0369a1"/>
+  
+  <!-- Mitochondria (6 & 5) -->
+  <!-- Label 6 (left) -->
+  <g transform="translate(95, 175) rotate(-30)">
+    <rect x="-10" y="-20" width="20" height="40" rx="10" fill="#fed7aa" stroke="#ea580c" stroke-width="1.5"/>
+    <path d="M -7,-12 Q 0,-8 7,-12 M 7,-4 Q 0,0 -7,-4 M -7,4 Q 0,8 7,4 M 7,12 Q 0,16 -7,12" stroke="#c2410c" stroke-width="1.2" fill="none"/>
+  </g>
+  <!-- Label 5 (right) -->
+  <g transform="translate(270, 195) rotate(40)">
+    <rect x="-12" y="-25" width="24" height="50" rx="12" fill="#fed7aa" stroke="#ea580c" stroke-width="1.5"/>
+    <path d="M -8,-15 Q 0,-10 8,-15 M 8,-5 Q 0,0 -8,-5 M -8,5 Q 0,10 8,5 M 8,15 Q 0,20 -8,15" stroke="#c2410c" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <!-- Vacuole (Label 4) -->
+  <ellipse cx="280" cy="115" rx="18" ry="12" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+
+  <!-- Endoplasmic Reticulum / Ribosomes (Label 3) -->
+  <path d="M 140,195 Q 165,180 190,195 T 240,195" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <path d="M 145,210 Q 170,195 195,210 T 245,210" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <circle cx="150" cy="193" r="2" fill="#0f172a"/><circle cx="170" cy="189" r="2" fill="#0f172a"/><circle cx="210" cy="197" r="2" fill="#0f172a"/>
+
+  <!-- Pointer lines & text -->
+  <!-- 1 -> Nucleolus -->
+  <line x1="200" y1="100" x2="310" y2="55" stroke="#111" stroke-width="1.2"/>
+  <text x="315" y="58" font-size="14" font-weight="bold" fill="#111">1</text>
+
+  <!-- 2 -> Nucleus/Chromatin -->
+  <line x1="160" y1="110" x2="50" y2="100" stroke="#111" stroke-width="1.2"/>
+  <text x="38" y="104" font-size="14" font-weight="bold" fill="#111">2</text>
+
+  <!-- 3 -> Ribosome / ER -->
+  <line x1="170" y1="210" x2="170" y2="255" stroke="#111" stroke-width="1.2"/>
+  <text x="166" y="272" font-size="14" font-weight="bold" fill="#111">3</text>
+
+  <!-- 4 -> Small Vacuole -->
+  <line x1="290" y1="110" x2="310" y2="125" stroke="#111" stroke-width="1.2"/>
+  <text x="315" y="132" font-size="14" font-weight="bold" fill="#111">4</text>
+
+  <!-- 5 -> Mitochondrion -->
+  <line x1="270" y1="210" x2="315" y2="215" stroke="#111" stroke-width="1.2"/>
+  <text x="320" y="220" font-size="14" font-weight="bold" fill="#111">5</text>
+
+  <!-- 6 -> Mitochondrion -->
+  <line x1="90" y1="185" x2="45" y2="185" stroke="#111" stroke-width="1.2"/>
+  <text x="32" y="190" font-size="14" font-weight="bold" fill="#111">6</text>
+</svg>

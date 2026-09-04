@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 480" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Marker for leader line -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Scolex Body Outline (Head & Neck of Tapeworm / Taenia) -->
+  <path d="M 175 420 
+           L 175 250 
+           C 160 220, 105 210, 105 140 
+           C 105 75, 175 40, 240 40 
+           C 305 40, 375 75, 375 140 
+           C 375 210, 320 220, 305 250 
+           L 305 420" 
+        fill="#faf6ee" stroke="#222" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Proglottid / Segmentation lines in neck region -->
+  <path d="M 175 290 Q 240 298 305 290" fill="none" stroke="#666" stroke-width="1.8" stroke-dasharray="4,3" />
+  <path d="M 175 330 Q 240 338 305 330" fill="none" stroke="#666" stroke-width="1.8" stroke-dasharray="4,3" />
+  <path d="M 175 370 Q 240 378 305 370" fill="none" stroke="#666" stroke-width="1.8" stroke-dasharray="4,3" />
+  <path d="M 175 410 Q 240 418 305 410" fill="none" stroke="#666" stroke-width="1.8" stroke-dasharray="4,3" />
+
+  <!-- Rostellum with double crown of chitinous hooks at apex -->
+  <ellipse cx="240" cy="55" rx="42" ry="16" fill="#eedec8" stroke="#222" stroke-width="2" />
+  
+  <!-- Chitinous Curved Hooks -->
+  <g stroke="#111" stroke-width="2.2" stroke-linecap="round">
+    <path d="M 205 60 Q 200 48 206 42" fill="none" />
+    <path d="M 215 63 Q 212 50 218 42" fill="none" />
+    <path d="M 225 65 Q 223 51 229 42" fill="none" />
+    <path d="M 235 66 Q 235 52 240 42" fill="none" />
+    <path d="M 245 66 Q 247 52 251 42" fill="none" />
+    <path d="M 255 65 Q 259 51 262 42" fill="none" />
+    <path d="M 265 63 Q 270 50 273 42" fill="none" />
+    <path d="M 275 60 Q 282 48 284 42" fill="none" />
+  </g>
+
+  <!-- Lateral Left Sucker (Acetabulum) -->
+  <ellipse cx="125" cy="140" rx="20" ry="28" fill="#f0e2cf" stroke="#222" stroke-width="2.5" />
+  <ellipse cx="125" cy="140" rx="11" ry="18" fill="none" stroke="#555" stroke-width="1.8" stroke-dasharray="2,2" />
+
+  <!-- Lateral Right Sucker (Acetabulum) -->
+  <ellipse cx="355" cy="140" rx="20" ry="28" fill="#f0e2cf" stroke="#222" stroke-width="2.5" />
+  <ellipse cx="355" cy="140" rx="11" ry="18" fill="none" stroke="#555" stroke-width="1.8" stroke-dasharray="2,2" />
+
+  <!-- Central Anterior Sucker (Target of Pointer X) -->
+  <circle cx="240" cy="145" r="30" fill="#f0e2cf" stroke="#222" stroke-width="2.5" />
+  <circle cx="240" cy="145" r="18" fill="#e4d2ba" stroke="#444" stroke-width="2" />
+  <circle cx="240" cy="145" r="7" fill="#cbb497" stroke="#333" stroke-width="1.5" />
+
+  <!-- Pointer and Label X (pointing to the sucker) -->
+  <line x1="420" y1="90" x2="265" y2="135" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="435" y="96" font-size="24" font-weight="bold" fill="#111">X</text>
+</svg>

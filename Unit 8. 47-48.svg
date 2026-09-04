@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 500" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Dot Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Head of Cockroach (Anterior View) -->
+  <g id="cockroach-head" stroke="#222" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Antennae (Label I target) -->
+    <!-- Left Antenna extending upward and outward -->
+    <path d="M 120 115 C 95 85, 75 60, 60 45" fill="none" stroke-width="2.8" />
+    <!-- Right Antenna extending upward and outward -->
+    <path d="M 230 115 C 255 85, 275 60, 290 45" fill="none" stroke-width="2.8" />
+
+    <!-- Epicranial vertex suture and cranial lines -->
+    <path d="M 125 90 C 150 78, 200 78, 225 90" fill="none" stroke-width="2" />
+    <path d="M 175 80 L 175 125" fill="none" stroke-width="2" />
+    <path d="M 175 125 L 140 150" fill="none" stroke-width="2" />
+    <path d="M 175 125 L 210 150" fill="none" stroke-width="2" />
+
+    <!-- Compound Eyes (Kidney-shaped lateral eyes - Label II) -->
+    <!-- Left Compound Eye -->
+    <path d="M 120 85 C 90 92, 70 120, 72 155 C 75 185, 105 180, 115 160 C 122 145, 120 115, 120 85 Z" 
+          fill="#3b2b20" stroke-width="2" />
+    <!-- Right Compound Eye (Label II Target) -->
+    <path d="M 230 85 C 260 92, 280 120, 278 155 C 275 185, 245 180, 235 160 C 228 145, 230 115, 230 85 Z" 
+          fill="#3b2b20" stroke-width="2" />
+
+    <!-- Antennal Sockets (Fenestrae / Ocelli bases) -->
+    <circle cx="125" cy="120" r="8" fill="#fdfbf7" stroke-width="2" />
+    <circle cx="225" cy="120" r="8" fill="#fdfbf7" stroke-width="2" />
+
+    <!-- Frons & Clypeus (Front facial plate of head) -->
+    <path d="M 105 170 
+             C 112 205, 120 240, 122 280 
+             L 135 295 
+             L 145 320 
+             C 160 325, 190 325, 205 320 
+             L 215 295 
+             L 228 280 
+             C 230 240, 238 205, 245 170" 
+          fill="#ecd9c6" stroke-width="2.5" />
+
+    <!-- Cheeks (Genae) outer margins -->
+    <path d="M 85 180 C 92 215, 102 245, 108 270" fill="none" stroke-width="2" />
+    <path d="M 265 180 C 258 215, 248 245, 242 270" fill="none" stroke-width="2" />
+
+    <!-- Labrum (Upper lip) -->
+    <path d="M 148 318 C 148 338, 160 345, 175 345 C 190 345, 202 338, 202 318 Z" 
+          fill="#debfa1" stroke-width="2" />
+
+    <!-- Mandibles behind labrum -->
+    <path d="M 112 280 C 118 305, 130 325, 142 332" fill="none" stroke-width="2" />
+    <path d="M 238 280 C 232 305, 220 325, 208 332" fill="none" stroke-width="2" />
+
+    <!-- Labial Palps (Label III - inner, shorter feelers) -->
+    <!-- Left Labial Palp -->
+    <path d="M 150 340 C 140 360, 132 378, 142 395 C 148 392, 155 375, 160 355 Z" 
+          fill="#d8c2a7" stroke-width="1.8" />
+    <!-- Right Labial Palp -->
+    <path d="M 200 340 C 210 360, 218 378, 208 395 C 202 392, 195 375, 190 355 Z" 
+          fill="#d8c2a7" stroke-width="1.8" />
+
+    <!-- Maxillary Palps (Label IV - outer, longer, 5-segmented feelers) -->
+    <!-- Left Maxillary Palp (Label IV target with looped pointer) -->
+    <path d="M 108 305 
+             C 88 318, 70 340, 65 370 
+             C 60 400, 78 425, 95 425 
+             C 105 405, 90 380, 98 355 
+             C 104 338, 114 322, 122 315 Z" 
+          fill="#eedfcb" stroke-width="2.2" />
+    <line x1="82" y1="340" x2="94" y2="330" stroke-width="1.8" />
+    <line x1="72" y1="380" x2="86" y2="375" stroke-width="1.8" />
+    <line x1="80" y1="412" x2="94" y2="408" stroke-width="1.8" />
+
+    <!-- Right Maxillary Palp -->
+    <path d="M 242 305 
+             C 262 318, 280 340, 285 370 
+             C 290 400, 272 425, 255 425 
+             C 245 405, 260 380, 252 355 
+             C 246 338, 236 322, 228 315 Z" 
+          fill="#eedfcb" stroke-width="2.2" />
+    <line x1="268" y1="340" x2="256" y2="330" stroke-width="1.8" />
+    <line x1="278" y1="380" x2="264" y2="375" stroke-width="1.8" />
+    <line x1="270" y1="412" x2="256" y2="408" stroke-width="1.8" />
+  </g>
+
+  <!-- ================= LABELS & POINTERS ================= -->
+  <!-- I: Antenna -->
+  <line x1="420" y1="65" x2="265" y2="65" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="435" y="72" font-size="22" font-weight="bold" fill="#111">I</text>
+
+  <!-- II: Compound Eye -->
+  <line x1="420" y1="140" x2="272" y2="140" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="435" y="147" font-size="22" font-weight="bold" fill="#111">II</text>
+
+  <!-- III: Labial Palp -->
+  <line x1="420" y1="350" x2="208" y2="350" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="435" y="357" font-size="22" font-weight="bold" fill="#111">III</text>
+
+  <!-- IV: Maxillary Palp (Bracket loop pointing around to left palp) -->
+  <path d="M 420 400 L 115 400 C 95 400, 75 410, 75 385" fill="none" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="435" y="407" font-size="22" font-weight="bold" fill="#111">IV</text>
+</svg>

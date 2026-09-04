@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 480" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Arrowhead Marker for Cycle Steps -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Cycle Flow Arrows -->
+  <!-- 6 to 1 -->
+  <path d="M 120 78 C 135 68, 155 60, 180 56" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)" />
+  <!-- 1 to 2 -->
+  <path d="M 270 56 C 295 60, 315 68, 335 80" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)" />
+  <!-- 2 to 3 -->
+  <path d="M 390 145 C 400 170, 395 195, 385 210" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)" />
+  <!-- 3 to 4 -->
+  <path d="M 330 270 C 305 285, 280 295, 260 295" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)" />
+  <!-- 4 to 5 -->
+  <path d="M 200 295 C 175 292, 155 280, 135 265" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)" />
+  <!-- 5 to 6 -->
+  <path d="M 80 215 C 65 190, 60 165, 65 145" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- ================= STAGE 1: Gravid Proglottid / Egg Packet ================= -->
+  <g id="stage-1">
+    <rect x="185" y="42" width="75" height="36" rx="4" fill="#faf6ee" stroke="#222" stroke-width="2" />
+    <!-- Branched Uterus with Eggs -->
+    <path d="M 195 60 Q 222 58 250 60" fill="none" stroke="#8b0000" stroke-width="2" />
+    <path d="M 205 50 Q 205 60 205 70 M 222 48 Q 222 60 222 72 M 240 50 Q 240 60 240 70" 
+          fill="none" stroke="#8b0000" stroke-width="1.5" stroke-linecap="round" />
+    <text x="222" y="32" font-size="16" font-weight="bold" fill="#111" text-anchor="middle">1</text>
+  </g>
+
+  <!-- ================= STAGE 2: Shelled Egg / Embryophore ================= -->
+  <g id="stage-2">
+    <!-- Outer thick shell (striated embryophore) -->
+    <circle cx="370" cy="105" r="32" fill="#fff9e6" stroke="#222" stroke-width="2.5" />
+    <circle cx="370" cy="105" r="24" fill="#fdfbf7" stroke="#666" stroke-width="1.5" stroke-dasharray="3,2" />
+    <!-- Inner oncosphere core with hooklets -->
+    <circle cx="370" cy="105" r="14" fill="#eae1cf" stroke="#333" stroke-width="1.5" />
+    <g stroke="#111" stroke-width="1.5" stroke-linecap="round">
+      <line x1="365" y1="100" x2="375" y2="100" />
+      <line x1="364" y1="105" x2="376" y2="105" />
+      <line x1="365" y1="110" x2="375" y2="110" />
+    </g>
+    <text x="415" y="85" font-size="16" font-weight="bold" fill="#111">2</text>
+  </g>
+
+  <!-- ================= STAGE 3: Hexacanth / Oncosphere with 6 hooks ================= -->
+  <g id="stage-3">
+    <!-- Free spherical oncosphere larva -->
+    <circle cx="365" cy="230" r="24" fill="#faeed9" stroke="#222" stroke-width="2" />
+    <!-- 6 Hooklets protruding -->
+    <g stroke="#222" stroke-width="2" stroke-linecap="round">
+      <path d="M 378 214 Q 395 205 398 185" fill="none" />
+      <path d="M 385 224 Q 402 222 410 215" fill="none" />
+      <path d="M 385 238 Q 402 242 412 245" fill="none" />
+      <path d="M 350 216 Q 338 210 332 205" fill="none" />
+      <path d="M 345 230 Q 332 232 325 232" fill="none" />
+      <path d="M 348 244 Q 335 250 328 258" fill="none" />
+    </g>
+    <text x="410" y="240" font-size="16" font-weight="bold" fill="#111">3</text>
+  </g>
+
+  <!-- ================= STAGE 4: Encysted Bladderworm in Pig Muscle ================= -->
+  <g id="stage-4">
+    <!-- Bladder cyst / Cysticercus in muscle tissue -->
+    <path d="M 215 315 
+             C 210 295, 235 290, 250 305 
+             C 265 290, 290 295, 285 315 
+             C 280 335, 220 335, 215 315 Z" 
+          fill="#f7ede6" stroke="#222" stroke-width="2.2" />
+    <!-- Invaginated scolex inside cyst -->
+    <path d="M 240 310 C 245 320, 255 320, 260 310" fill="none" stroke="#8b0000" stroke-width="2" stroke-linecap="round" />
+    <circle cx="250" cy="318" r="3" fill="#8b0000" />
+    <text x="250" y="352" font-size="16" font-weight="bold" fill="#111" text-anchor="middle">4</text>
+  </g>
+
+  <!-- ================= STAGE 5: Everted Bladderworm / Cysticercus ================= -->
+  <g id="stage-5">
+    <!-- Fluid-filled bladder -->
+    <ellipse cx="120" cy="255" rx="30" ry="16" fill="#fcf6ec" stroke="#222" stroke-width="2" transform="rotate(-25 120 255)" />
+    <!-- Everted neck with scolex -->
+    <path d="M 105 240 Q 95 220 90 205" fill="none" stroke="#222" stroke-width="2.5" />
+    <!-- Scolex knob with suckers/hooks -->
+    <circle cx="88" cy="200" r="7" fill="#eadfcf" stroke="#222" stroke-width="2" />
+    <circle cx="86" cy="198" r="1.8" fill="#111" />
+    <circle cx="91" cy="201" r="1.8" fill="#111" />
+    <text x="60" y="275" font-size="16" font-weight="bold" fill="#111">5</text>
+  </g>
+
+  <!-- ================= STAGE 6: Mature Adult Tapeworm (Taenia) ================= -->
+  <g id="stage-6">
+    <!-- Scolex (head) with rostellum and suckers -->
+    <circle cx="45" cy="105" r="9" fill="#fdfbf7" stroke="#222" stroke-width="2" />
+    <circle cx="43" cy="103" r="2.2" fill="#111" />
+    <circle cx="48" cy="106" r="2.2" fill="#111" />
+    <!-- Rostellar hooks -->
+    <path d="M 38 100 Q 45 92 52 100" fill="none" stroke="#111" stroke-width="1.8" />
+
+    <!-- Segmented Strobila (Proglottids) looping around -->
+    <path d="M 46 114 
+             C 48 135, 52 155, 65 160 
+             C 80 165, 82 145, 80 125 
+             C 78 105, 95 90, 110 82" 
+          fill="none" stroke="#222" stroke-width="9" stroke-linecap="round" />
+    <path d="M 46 114 
+             C 48 135, 52 155, 65 160 
+             C 80 165, 82 145, 80 125 
+             C 78 105, 95 90, 110 82" 
+          fill="none" stroke="#fffcf5" stroke-width="6" stroke-dasharray="2,3" stroke-linecap="round" />
+    <text x="100" y="85" font-size="16" font-weight="bold" fill="#111">6</text>
+  </g>
+
+  <!-- Diagram Caption -->
+  <text x="270" y="425" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">Life cycle of tapeworm</text>
+</svg>

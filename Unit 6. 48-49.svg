@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 480" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Dot Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Ground / Soil line -->
+  <line x1="50" y1="365" x2="240" y2="365" stroke="#444" stroke-width="2" stroke-linecap="round" />
+  <line x1="80" y1="372" x2="210" y2="372" stroke="#777" stroke-width="1.2" stroke-dasharray="6,4" />
+
+  <!-- Root System (Label IV target) -->
+  <g fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round">
+    <!-- Primary taproot -->
+    <path d="M 125 365 Q 120 395 110 425" />
+    <!-- Lateral roots -->
+    <path d="M 122 375 Q 100 390 85 405" />
+    <path d="M 118 385 Q 98 415 88 430" />
+    <path d="M 122 380 Q 140 400 155 415" />
+    <path d="M 114 405 Q 128 425 135 440" />
+    <path d="M 124 370 Q 142 380 152 388" />
+  </g>
+
+  <!-- Shoot System: Main Stem -->
+  <path d="M 120 365 
+           C 120 310, 130 260, 125 210 
+           C 122 175, 118 140, 120 115 
+           L 132 115 
+           C 130 140, 134 175, 137 210 
+           C 142 260, 132 310, 132 365 Z" 
+        fill="#e5edd9" stroke="#222" stroke-width="2.5" />
+
+  <!-- Lateral Branch (Label II target) -->
+  <path d="M 134 205 
+           C 145 190, 160 165, 182 140 
+           L 188 146 
+           C 168 170, 154 195, 142 215 Z" 
+        fill="#e5edd9" stroke="#222" stroke-width="2" />
+
+  <!-- Upper Stem / Terminal Shoot (Label I region) -->
+  <!-- Left upper branch and leaves -->
+  <path d="M 120 115 Q 105 108 90 112" fill="none" stroke="#222" stroke-width="2" />
+  <ellipse cx="80" cy="115" rx="10" ry="6" fill="#cbe6b8" stroke="#222" stroke-width="1.8" transform="rotate(-15 80 115)" />
+  <ellipse cx="92" cy="100" rx="9" ry="5" fill="#cbe6b8" stroke="#222" stroke-width="1.8" transform="rotate(-60 92 100)" />
+
+  <!-- Apex shoot tip -->
+  <path d="M 126 115 Q 126 95 130 85" fill="none" stroke="#222" stroke-width="2" />
+  <ellipse cx="132" cy="78" rx="6" ry="10" fill="#cbe6b8" stroke="#222" stroke-width="1.8" transform="rotate(10 132 78)" />
+
+  <!-- Foliage / Leaves on Lateral Branch -->
+  <!-- Upper leaf (Target of Label I) -->
+  <line x1="184" y1="142" x2="190" y2="105" stroke="#222" stroke-width="2" />
+  <ellipse cx="192" cy="95" rx="8" ry="15" fill="#cbe6b8" stroke="#222" stroke-width="1.8" transform="rotate(10 192 95)" />
+
+  <!-- Right branchlets with leaves -->
+  <line x1="184" y1="142" x2="215" y2="125" stroke="#222" stroke-width="2" />
+  <ellipse cx="225" cy="120" rx="12" ry="7" fill="#cbe6b8" stroke="#222" stroke-width="1.8" transform="rotate(-20 225 120)" />
+
+  <line x1="172" y1="156" x2="218" y2="152" stroke="#222" stroke-width="2" />
+  <ellipse cx="230" cy="152" rx="12" ry="7" fill="#cbe6b8" stroke="#222" stroke-width="1.8" />
+
+  <!-- Solitary Petiolate Leaf (Label III target) -->
+  <path d="M 137 218 Q 155 224 172 232" fill="none" stroke="#222" stroke-width="2" />
+  <!-- Leaf Blade -->
+  <ellipse cx="198" cy="242" rx="26" ry="14" fill="#cbe6b8" stroke="#222" stroke-width="2" transform="rotate(22 198 242)" />
+  <!-- Midrib -->
+  <path d="M 172 232 Q 198 242 222 252" fill="none" stroke="#222" stroke-width="1.5" />
+
+  <!-- Axillary bud in leaf axil -->
+  <circle cx="140" cy="210" r="3" fill="#222" />
+
+  <!-- ================= LABELS & POINTER LINES ================= -->
+  <!-- I: Leaf (or stem axis) -->
+  <line x1="320" y1="95" x2="198" y2="95" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="330" y="101" font-size="20" font-weight="bold" fill="#111">I</text>
+
+  <!-- II: Branch / Stem -->
+  <line x1="320" y1="175" x2="168" y2="175" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="330" y="181" font-size="20" font-weight="bold" fill="#111">II</text>
+
+  <!-- III: Leaf Blade / Lamina -->
+  <line x1="320" y1="245" x2="225" y2="245" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="330" y="251" font-size="20" font-weight="bold" fill="#111">III</text>
+
+  <!-- IV: Root System -->
+  <line x1="320" y1="395" x2="128" y2="395" stroke="#111" stroke-width="1.8" marker-end="url(#dot)" />
+  <text x="330" y="401" font-size="20" font-weight="bold" fill="#111">IV</text>
+</svg>

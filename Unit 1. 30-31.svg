@@ -1,0 +1,39 @@
+<svg viewBox="0 0 380 340" xmlns="http://www.w3.org/2000/svg" style="background:#fcfdfd; border:1px solid #d1d5db; border-radius:8px; font-family:sans-serif;">
+  <!-- Intercellular Corners / Neighboring Middle Lamella -->
+  <path d="M 40,75 L 75,75 L 75,40 M 255,40 L 255,75 L 290,75 M 40,265 L 75,265 L 75,300 M 255,300 L 255,265 L 290,265" stroke="#475569" stroke-width="2.5" fill="none"/>
+
+  <!-- Thick Rectangular Plant Cell Wall -->
+  <rect x="75" y="75" width="180" height="190" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="3"/>
+
+  <!-- Large Central Vacuole taking up most of cell interior -->
+  <rect x="90" y="90" width="150" height="160" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="3"/>
+
+  <!-- Peripheral Nucleus pushed to bottom right corner -->
+  <path d="M 195,215 Q 195,190 220,190 L 238,190 L 238,245 L 210,245 Q 195,245 195,215 Z" fill="#bbf7d0" stroke="#15803d" stroke-width="1.8"/>
+  <circle cx="218" cy="215" r="5" fill="#15803d"/> <!-- Nucleolus / chromatin inside -->
+
+  <!-- Peripheral Chloroplasts / Inclusions -->
+  <circle cx="105" cy="105" r="2.5" fill="#15803d"/>
+  <circle cx="130" cy="100" r="2.5" fill="#15803d"/>
+  <circle cx="160" cy="100" r="2.5" fill="#15803d"/>
+  <circle cx="200" cy="105" r="2.5" fill="#15803d"/>
+  <circle cx="100" cy="150" r="2.5" fill="#15803d"/>
+  <circle cx="100" cy="210" r="2.5" fill="#15803d"/>
+
+  <!-- Pointers -->
+  <!-- I -> Vacuole / Tonoplast -->
+  <line x1="230" y1="130" x2="305" y2="130" stroke="#111" stroke-width="1.2"/>
+  <text x="315" y="135" font-size="16" font-weight="bold">I</text>
+
+  <!-- II -> Nuclear membrane / Cytoplasm border -->
+  <line x1="235" y1="190" x2="305" y2="175" stroke="#111" stroke-width="1.2"/>
+  <text x="315" y="180" font-size="16" font-weight="bold">II</text>
+
+  <!-- III -> Nucleolus / Nucleus interior -->
+  <line x1="225" y1="215" x2="305" y2="215" stroke="#111" stroke-width="1.2"/>
+  <text x="315" y="220" font-size="16" font-weight="bold">III</text>
+
+  <!-- IV -> Cell wall / Plasma membrane -->
+  <line x1="238" y1="245" x2="305" y2="255" stroke="#111" stroke-width="1.2"/>
+  <text x="315" y="260" font-size="16" font-weight="bold">IV</text>
+</svg>

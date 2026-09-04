@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 540" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <defs>
+    <!-- Pointer Dot Marker -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="4" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Plant Stem / Twig -->
+  <path d="M 125 70 
+           C 120 180, 110 320, 95 480 
+           L 110 480 
+           C 125 320, 135 180, 140 70 Z" 
+        fill="#e5d8c3" stroke="#222" stroke-width="2.5" />
+
+  <!-- Silk Girdle (Suspensory loop holding pupa to twig) -->
+  <path d="M 132 205 Q 170 235 240 255" fill="none" stroke="#222" stroke-width="2.5" />
+  <path d="M 134 207 Q 155 260 170 320" fill="none" stroke="#222" stroke-width="1.8" />
+
+  <!-- Pupa / Chrysalis of Butterfly (e.g., Papilio / Pieris) -->
+  <g id="chrysalis" stroke="#222" stroke-linejoin="round">
+    <!-- Abdominal Segments (III region) -->
+    <path d="M 112 430 
+             L 145 350 
+             L 242 278 
+             L 262 295 
+             L 220 380 
+             L 125 435 Z" 
+          fill="#dcebc8" stroke-width="2.5" />
+
+    <!-- Abdominal Segment Boundaries and Spiracles -->
+    <g stroke="#333" stroke-width="1.8" fill="none">
+      <!-- Segment intersegmental lines -->
+      <line x1="120" y1="415" x2="132" y2="422" />
+      <line x1="126" y1="398" x2="148" y2="408" />
+      <line x1="135" y1="378" x2="168" y2="390" />
+      <line x1="145" y1="350" x2="188" y2="370" />
+      <line x1="168" y1="322" x2="215" y2="345" />
+      <line x1="195" y1="298" x2="242" y2="320" />
+      <line x1="220" y1="282" x2="258" y2="300" />
+    </g>
+
+    <!-- Spiracle dots on abdomen -->
+    <g fill="#222">
+      <circle cx="130" cy="408" r="2" />
+      <circle cx="140" cy="390" r="2" />
+      <circle cx="155" cy="370" r="2.2" />
+      <circle cx="178" cy="345" r="2.5" />
+      <circle cx="205" cy="320" r="2.5" />
+      <circle cx="230" cy="298" r="2.5" />
+    </g>
+
+    <!-- Wing Case / Forewing Pad (II) & Developing Antenna Case (I) -->
+    <path d="M 242 278 
+             C 255 260, 260 250, 275 250 
+             C 290 250, 280 270, 265 285 
+             C 255 292, 248 290, 242 278 Z" 
+          fill="#cde2b6" stroke-width="2" />
+
+    <!-- Antenna Case (Ridge bordering wing case - Label I) -->
+    <path d="M 285 240 
+             C 285 255, 270 268, 250 282" 
+          fill="none" stroke="#222" stroke-width="2.5" />
+
+    <!-- Thoracic Region & Cephalic Projections (Head horns) -->
+    <path d="M 132 205 
+             C 175 220, 230 220, 275 240 
+             L 288 232 
+             C 275 210, 285 195, 275 180 
+             L 282 170 
+             C 270 172, 260 185, 250 190 
+             C 220 185, 175 195, 132 205 Z" 
+          fill="#d5e8bf" stroke-width="2.5" />
+
+    <!-- Keel / Dorsal thoracic ridge -->
+    <path d="M 288 232 C 285 205, 298 185, 282 170" fill="none" stroke="#222" stroke-width="2" />
+    <path d="M 268 200 C 275 212, 280 225, 288 232" fill="none" stroke="#444" stroke-width="1.5" />
+
+    <!-- Cremaster / Terminal attachment at base (Label IV) -->
+    <path d="M 112 430 L 105 445 L 118 440 Z" fill="#555" stroke-width="2" />
+  </g>
+
+  <!-- ================= LABELS & POINTERS ================= -->
+  <!-- I: Developing Antenna (Organ for feeling) -->
+  <line x1="390" y1="240" x2="280" y2="240" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="405" y="247" font-size="22" font-weight="bold" fill="#111">I</text>
+
+  <!-- II: Wing Case / Forewing Pad (or Thorax/Wing) -->
+  <line x1="390" y1="280" x2="258" y2="280" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="405" y="287" font-size="22" font-weight="bold" fill="#111">II</text>
+
+  <!-- III: Abdominal Segment (Abdomen) -->
+  <line x1="390" y1="365" x2="195" y2="365" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="405" y="372" font-size="22" font-weight="bold" fill="#111">III</text>
+
+  <!-- IV: Cremaster / Terminal spine / Anchor -->
+  <line x1="390" y1="440" x2="115" y2="440" stroke="#111" stroke-width="2" marker-end="url(#dot)" />
+  <text x="405" y="447" font-size="22" font-weight="bold" fill="#111">IV</text>
+</svg>
